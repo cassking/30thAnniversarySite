@@ -1,0 +1,146 @@
+<!--//**Begin header.shtml include**//-->
+<!--#include virtual="/30th/inc/header_flowers_photos.shtml"-->
+
+
+			<div id="outerColumnContainer">
+				<div id="innerColumnContainer">
+					<hr class="hide">
+					<div id="leftColumn">
+						<div class="inside">
+						
+<h2 class="subsection">Photo Gallery</h2>
+<p style="font-size:80%;">
+	Images: then and now
+</p>
+<!--//**Begin vnav.shtml include**//-->
+<!--#include virtual="/30th/inc/vnav.shtml"-->
+
+
+<!--
+	Won't validate XHTML 1.1 because I use the name property for an anchor (to be
+	backwards compatible with version 4 and earlier browsers). It's a personal belief
+	that XHTML 1.1 should at least include the name property. But since it doesn't,
+	I can't put these here.
+
+	<p>
+		<a href="http://validator.w3.org/check/referer"><img
+			src="http://www.w3.org/Icons/valid-xhtml11"
+			alt="Valid XHTML 1.1!" height="31" width="88" style="border-width:0;"></a>
+	</p>
+	<p>					
+		<a href="http://jigsaw.w3.org/css-validator/"><img
+			src="http://jigsaw.w3.org/css-validator/images/vcss"
+			alt="Valid CSS!" height="31" width="88" style="border-width:0;"></a>
+	</p>
+-->
+
+						</div>
+					</div>
+					<hr class="hide">
+					<div id="rightColumn">
+						<div class="inside">
+						
+
+
+
+						</div>
+					</div>
+					<div id="contentColumn">
+						<hr class="hide">
+						<a name="skipToContent" id="skipToContent"></a>
+						<div class="inside">
+
+
+<h2 class="red title highlight">Photos and Snapshots 1971 - 2005</h2>
+<p>Click on the thumbnails to see a full-size version of the photo</p>
+<div id="main">
+
+  <div class="thumbnail">
+  <a href="photos_zoom.shtml?src=images/slides/2_ywca_291x212.jpg&amp;height=212&amp;alt= First home of Delaware Law School: YWCA building">
+  <img src="images/slides/thumbnails/2_ywca_thumb.jpg" width="120" height="120" border="0" /></a>
+  <p> First home: YWCA building</p>
+  </div>
+  
+    <div class="thumbnail">
+  <a href="photos_zoom.shtml?src=images/slides/3_bulletin_380x595.jpg&amp;height=212&amp;alt=First Delaware Law School Bulletin">
+  <img src="images/slides/thumbnails/3_bulletin_thumb.jpg" width="120" height="120" border="0" /></a>
+  <p> First bulletin</p>
+  </div>
+  
+     <div class="thumbnail">
+  <a href="photos_zoom.shtml?src=images/slides/4_lamutis_600x400.jpg&amp;height=212&amp;alt=Don Lamutis '75, Costas Krikelis '75 &amp; Dean Avins">
+  <img src="images/slides/thumbnails/4_lamutis_thumb.jpg" width="120" height="120" border="0" /></a>
+  <p> First Dean: 1975</p>
+  </div>
+  <div class="thumbnail">
+  <a href="photos_zoom.shtml?src=images/slides/6_church_600x486.jpg&amp;height=212&amp;alt= 2nd home of Delaware Law School: The Church">
+  <img src="images/slides/thumbnails/6_church_thumb.jpg" width="120" height="120" border="0" /></a>
+  <p>Second home: Church</p>
+  </div>
+  
+ <div class="thumbnail">
+ <img src="images/slides/thumbnails/" alt="" width="120" height="120"><br />
+Dean Alfred Avins founder of Delaware Law School
+ </div>
+ <div class="thumbnail">
+ <img src="images/slides/thumbnails/2_ywca_thumb.jpg" alt="" width="120" height="120"><br />
+First home of Delaware Law School: YWCA building
+ </div>
+ <div class="thumbnail">
+ <img src="images/slides/thumbnails/3_bulletin_thumb.jpg" alt="" width="120" height="120"><br />
+First Delaware Law School Bulletin </div>
+  <div class="thumbnail">
+ <img src="images/slides/thumbnails/4_lamutis_thumb.jpg" alt="" width="120" height="120"><br />
+Don Lamutis '75, Costas Krikelis '75 &amp; Dean Avins 
+ </div>
+ <div class="thumbnail">
+ <img src="images/slides/thumbnails/30th_anniversary_logo_lt.jpg" alt="" width="120" height="120"><br />
+ Caption 
+ </div>
+ <div class="thumbnail">
+ <img src="images/slides/thumbnails/6_church_thumb.jpg" alt="" width="120" height="120"><br />
+ 2nd home of Delaware Law School: The Church
+ </div>
+ 
+ <div class="thumbnail">
+ <img src="images/slides/thumbnails/30th_anniversary_logo_lt.jpg" alt="" width="120" height="120"><br />
+ Caption 
+ </div>
+ <div class="thumbnail">
+ <img src="images/slides/thumbnails/30th_anniversary_logo_lt.jpg" alt="" width="120" height="120"><br />
+ Caption 
+ </div>
+ <div class="thumbnail">
+ <img src="images/slides/thumbnails/30th_anniversary_logo_lt.jpg" alt="" width="120" height="120"><br />
+ Caption 
+ </div>
+  <div class="thumbnail">
+ <img src="images/slides/thumbnails/30th_anniversary_logo_lt.jpg" alt="" width="120" height="120"><br />
+ Caption 
+ </div>
+ <div class="thumbnail">
+ <img src="images/slides/thumbnails/30th_anniversary_logo_lt.jpg" alt="" width="120" height="120"><br />
+ Caption 
+ </div>
+ <div class="thumbnail">
+ <img src="images/slides/thumbnails/30th_anniversary_logo_lt.jpg" alt="" width="120" height="120"><br />
+ Caption 
+ </div>
+ 
+ </div>
+
+
+
+						</div>
+					</div>
+					<div class="clear mozclear"></div>
+				</div>
+			</div>
+			<div class="hide" id="nsFooterClear"><!-- for NS4's sake --></div>
+			<hr class="hide">
+				<!--//**Begin footer.shtml include**//-->
+<!--#include virtual="/30th/inc/footer.shtml"-->
+			<hr class="hide">
+		</div>
+	</body>
+</html>

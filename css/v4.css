@@ -1,0 +1,157 @@
+@charset "iso-8859-1";
+
+/*******************************************************************************
+*  v4.css : 2004-08-11 : Ruthsarian Layouts
+* ------------------------------------------------------------------------------
+*  The purpose of this stylesheet is to provide enough CSS to get
+*  version 4 browsers (IE4 and NN4) to render in a 3 column layout.
+*
+*  Because _all_ css-capable browsers will see this stylesheet, any
+*  selectors that exist within this stylesheet need to be overridden in 
+*  one of the other stylesheets that normal browsers will pick up. 
+*  Otherwise the good browsers may get screwed up by the NN4/IE4 stuff.
+*******************************************************************************/
+
+
+/*-*-*- base.css -*-*-*/
+
+body
+{
+	/*/*//*/ width: 130%;			/* nn4 fix */
+}
+.hide
+{
+	display: none;
+}
+.clear, #nsFooterClear
+{
+	clear: both;
+}
+.inside
+{
+	padding: 0.5em;
+}
+#oldBrowserNotice
+{
+	text-align: center;
+	display: block;		/* overriding the display:none on this block
+				   so that version 4 browsers still see the
+				   old browser notice */
+}
+#contentColumn
+{
+	/*/*/ margin: 0 12em;			/* ie4 fix */
+}
+#leftColumn
+{
+	float: left;
+	width: 12em;
+	/*/*/ margin-right: -12em;		/* ie4 fix */
+}
+#rightColumn
+{
+	float: right;
+	width: 12em;
+	/*/*/ text-align: left;			/* ie4 fix */
+	/*/*/ margin-left: -12em;		/* ie4 fix */
+}
+#masthead, .hnav, #contentColumn, #contentColumn .inside, #footer
+{
+	/*/*//*/ border: none;			/* nn4 fix */
+	/*/*//*/ margin: 0;			/* nn4 fix */
+}
+#nsFooterClear
+{
+	/*/*//*/ display: block;		/* nn4 fix */
+}
+#footer
+{
+	text-align: center;
+}
+
+
+/*-*-*- hnav.css -*-*-*/
+
+/*/*//*/
+	.hnav
+	{
+		text-align: center;
+		padding: none;
+	}
+	.hnav ul, .hnav ul li
+	{
+		list-style-type: none;
+		display: inline;
+	}
+/*--> IE4 does not do inline lists, so this CSS is shown only to NN4. <--*/
+
+
+/*-*-*- borders.css -*-*-*/
+
+#masthead, #footer, .hnav, #contentColumn
+{
+	border: solid 1px #000;
+}
+#pageWrapper
+{
+	/*/*//*/ border: solid 1px #000;	/* hide from ie4 */
+}
+#masthead
+{
+	/*/*//*/ border-width: 0 0 1px 0;	/* hide from ie4 */
+}
+#footer
+{
+	/*/*//*/ border-width: 1px 0 0 0;	/* hide from ie4 */
+}
+.hnav
+{
+	/*/*/ border-top-width: 0;		/* hide from nn4 */
+	/*/*//*/ border-width: 1px 0;		/* hide from ie4 */
+}
+#contentColumn
+{
+	margin-top: -1px;
+}
+
+/*-*-*- colors.css -*-*-*/
+
+body
+{
+	background-color: #fff;
+	/*/*//*/ background-color: #ccc;	/* nn4 coloring */
+	color: #000;
+}
+#pageWrapper
+{
+	background-color: #fff;
+	color: #000;
+}
+#contentcolumn					/* selector case hack */
+{
+	color: #000;
+	background-color: #eee;
+}
+
+
+/*-*-*- gutters.css (or what's left) -*-*-*/
+
+#pageWrapper
+{
+	margin: 0 1em;
+}
+#masthead
+{
+	/*/*//*/ padding-bottom: 0;		/* nn4 fix */
+}
+#masthead h1
+{
+	/*/*/ margin: 0;			/* ie4 fix */
+}
+.hnav ul
+{
+	/*/*/ margin-top: 0;			/* ie4 fix */
+	/*/*//*/ padding: 0.1em 0 0.4em ;	/* nn4 fix */
+}
+
+/******************************************************************************/

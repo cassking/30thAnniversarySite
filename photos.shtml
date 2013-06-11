@@ -1,0 +1,119 @@
+<!--//**Begin header.shtml include**//-->
+<!--#include virtual="/30th/inc/header_flowers_photos_joshua.shtml"-->
+
+
+			<div id="outerColumnContainer">
+				<div id="innerColumnContainer">
+					<hr class="hide">
+					<div id="leftColumn">
+						<div class="inside">
+						
+<h2 class="subsection">Photo Gallery</h2>
+<p style="font-size:80%;">
+	Images: then and now
+</p>
+<!--//**Begin vnav.shtml include**//-->
+<!--#include virtual="/30th/inc/vnav.shtml"-->
+
+
+<!--
+	Won't validate X.shtml 1.1 because I use the name property for an anchor (to be
+	backwards compatible with version 4 and earlier browsers). It's a personal belief
+	that X.shtml 1.1 should at least include the name property. But since it doesn't,
+	I can't put these here.
+
+	<p>
+		<a href="http://validator.w3.org/check/referer"><img
+			src="http://www.w3.org/Icons/valid-x.shtml11"
+			alt="Valid X.shtml 1.1!" height="31" width="88" style="border-width:0;"></a>
+	</p>
+	<p>					
+		<a href="http://jigsaw.w3.org/css-validator/"><img
+			src="http://jigsaw.w3.org/css-validator/images/vcss"
+			alt="Valid CSS!" height="31" width="88" style="border-width:0;"></a>
+	</p>
+-->
+
+						</div>
+					</div>
+					<hr class="hide">
+					<div id="rightColumn">
+						<div class="inside">
+						
+
+
+
+						</div>
+					</div>
+					<div id="contentColumn">
+						<hr class="hide">
+						<a name="skipToContent" id="skipToContent"></a>
+						<div class="inside">
+
+
+<h2 class="red title highlight">Photos and Snapshots 1971 - 2005</h2>
+<p>Click on  the thumbnails below to see a full-size version of the photo.
+An <a href="http://law.widener.edu/30th/photos_ppt.shtml">expanded Slide Show with OVER
+100 photos is available for download</a>. In addition,
+you can view a <a href="http://law.widener.edu/30th/photos_quicktime.shtml">Quicktime MOVIE</a> of 
+the 30th Anniversary Gala event held on October 7, 2005.  <strong>Please Note:</strong> the Quicktime movie is a LARGE movie file. 
+
+After clicking 
+through to watch the movie, <strong>please allow a few seconds for the movie to 
+load in your browser</strong>.</p>
+<div id="wrap"> 
+ <div id="main-content"> 
+    <ul> 
+      <li><a href="photos_fullplate1.shtml"><img src="images/slides/thumbnails/1_deanavins_thumb.jpg" alt="First Dean: 1975" width="150" height="120" /><span>First Dean: 1975 </span></a></li> 
+      <li><a href="photos_fullplate2.shtml"><img src="images/slides/thumbnails/2_ywca_thumb.jpg" alt="First home: YWCA building"  width="150" height="120" /><span>First home: YWCA building </span></a></li> 
+      <li><a href="photos_fullplate3.shtml"><img src="images/slides/thumbnails/3_bulletin_thumb.jpg" alt="First bulletin" width="150" height="120" /><span>First bulletin</span></a></li>
+      <li><a href="photos_fullplate4.shtml"><img src="images/slides/thumbnails/4_church_thumb.jpg" alt="Second home: Church" width="150" height="120" /><span>Second home: Church</span></a></li> 
+      <li><a href="photos_fullplate5.shtml"><img src="images/slides/thumbnails/5_deanweeks_thumb.jpg" alt="Dean Weeks arrives"  width="150" height="120" /><span>Dean Weeks arrives</span></a></li> 
+      <li><a href="photos_fullplate6.shtml"><img src="images/slides/thumbnails/6_defer_thumb.jpg" alt="Accreditation deferred"  width="150" height="120" /><span>Accreditation deferred</span></a></li> 
+      <li><a href="photos_fullplate7.shtml"><img src="images/slides/thumbnails/7_affiliate_thumb.jpg" alt="School affiliates with Widener" width="150" height="120" /><span>School affiliates with Widener</span></a></li> 
+      <li><a href="photos_fullplate8.shtml"><img src="images/slides/thumbnails/8_commen_thumb.jpg" alt="The thumb" width="150" height="120" /><span>First commencement</span></a></li> 
+      <li><a href="photos_fullplate9.shtml"><img src="images/slides/thumbnails/9_permahome_thumb.jpg" alt="First commencement" /><span>Permanent home</span></a></li> 
+      <li><a href="photos_fullplate10.shtml"><img src="images/slides/thumbnails/10_dejournal_thumb.jpg" alt="First issue: DEJCL" width="150" height="120" /><span>First issue: DEJCL</span></a></li> 
+      <li><a href="photos_fullplate12.shtml"><img src="images/slides/thumbnails/12_deangrant_thumb.jpg" alt="Dean Grant welcomed" width="150" height="120" /><span>Dean Grant welcomed</span></a></li> 
+     <li><a href="photos_fullplate14.shtml"><img src="images/slides/thumbnails/14_rehnquist_thumb.jpg" alt="Rehnquist welcomed" width="150" height="120" /><span>Rehnquist welcomed</span></a></li> 
+     <li><a href="photos_fullplate15.shtml"><img src="images/slides/thumbnails/15_santoro_thumb.jpg" alt="Dean Santoro" width="150" height="120" /><span>Dean Santoro</span></a></li> 
+ 	<li><a href="photos_fullplate16.shtml"><img src="images/slides/thumbnails/16_aalsadmit_thumb.jpg" alt="Admitted to AALS" width="150" height="120" /><span>Admitted to AALS</span></a></li> 
+     <li><a href="photos_fullplate17.shtml"><img src="images/slides/thumbnails/17_groundbreaking_thumb.jpg" alt="Harrisburg groundbreaking" width="150" height="120" /><span>Harrisburg groundbreaking</span></a></li> 
+<li><a href="photos_fullplate18.shtml"><img src="images/slides/thumbnails/18_govcasey_thumb.jpg" alt="Governor Casey speaks" width="150" height="120" /><span>Governor Casey speaks</span></a></li> 
+     <li><a href="photos_fullplate19.shtml"><img src="images/slides/thumbnails/19_harrisburg_thumb.jpg" alt="Harrisburg campus" width="150" height="120" /><span>Harrisburg campus</span></a></li> 
+ 	<li><a href="photos_fullplate20.shtml"><img src="images/slides/thumbnails/20_journal_thumb.jpg" alt="First issue: JPL" width="150" height="120" /><span>First issue: JPL</span></a></li> 
+     <li><a href="photos_fullplate21.shtml"><img src="images/slides/thumbnails/21_deanfrakt_thumb.jpg" alt="Dean Frakt" width="150" height="120" /><span>Dean Frakt</span></a></li> 
+ <li><a href="photos_fullplate22.shtml"><img src="images/slides/thumbnails/22_campuslife_thumb.jpg" alt="Wilmington campus" width="150" height="120" /><span>Wilmington campus</span></a></li> 
+     <li><a href="photos_fullplate23.shtml"><img src="images/slides/thumbnails/23_symposium_thumb.jpg" alt="First issue: LSJ" width="150" height="120" /><span>First issue: LSJ</span></a></li> 
+ 	<li><a href="photos_fullplate24.shtml"><img src="images/slides/thumbnails/24_ussupcourt_thumb.jpg" alt="US Supreme Court" width="150" height="120" /><span>US Supreme Court</span></a></li> 
+     <li><a href="photos_fullplate25.shtml"><img src="images/slides/thumbnails/25_wilmingtoncampus_thumb.jpg" alt="New DE building" width="150" height="120" /><span>New DE building</span></a></li> 
+     <li><a href="photos_fullplate26.shtml"><img src="images/slides/thumbnails/26_deanray_thumb.jpg" alt="Dean Ray" width="150" height="120" /><span>Dean Ray</span></a></li> 
+
+     <li><a href="photos_fullplate27.shtml"><img src="images/slides/thumbnails/27_reunion_thumb.jpg" alt="First class 25th  reunion" width="150" height="120" /><span>First class 25th  reunion</span></a></li> 
+     <li><a href="photos_fullplate28.shtml"><img src="images/slides/thumbnails/28_publicalumn_thumb.jpg" alt="Public Service" width="150" height="120" /><span>Public Service</span></a></li> 
+     <li><a href="photos_fullplate29.shtml"><img src="images/slides/thumbnails/29_thankingray_thumb.jpg" alt="Thanking Dean Ray" width="150" height="120" /><span>Thanking Dean Ray</span></a></li> 
+     <li><a href="photos_fullplate30.shtml"><img src="images/slides/thumbnails/30_harrisray_thumb.jpg" alt="President recognizes Dean Ray" width="150" height="120" /><span>President recognizes Dean Ray</span></a></li> 
+     <li><a href="photos_fullplate31.shtml"><img src="images/slides/thumbnails/31_seal_thumb.jpg" alt="30th Anniversary!" width="150" height="120" /><span>30th Anniversary!</span></a></li> 
+
+</ul> 
+<div class="clear mozclear"></div>
+  </div> 
+  <div class="clear mozclear"></div>
+  </div>
+
+
+
+
+						</div>
+					</div>
+					<div class="clear mozclear"></div>
+				</div>
+			</div>
+			<div class="hide" id="nsFooterClear"><!-- for NS4's sake --></div>
+			<hr class="hide">
+				<!--//**Begin footer.shtml include**//-->
+<!--#include virtual="/30th/inc/footer.shtml"-->
+			<hr class="hide">
+		</div>
+	</body>
+</html>

@@ -1,0 +1,270 @@
+@charset "iso-8859-1";
+
+/*******************************************************************************
+*  bgImages.css : 2004-08-12 : Ruthsarian Layouts
+* ------------------------------------------------------------------------------
+*  this demonstration stylesheet is used to show how to apply background images
+*  to elements within the layout. This includes switching from borders to 
+*  background images for the side columns. This requires some additional 
+*  values to be altered besides the background family of properties.
+*******************************************************************************/
+
+
+
+#pageWrapper
+{
+	background-image: url("../images/gradient_dkltblue_stripes2.jpg");
+	background-repeat: repeat-y;
+	background-position: 100% 0;
+}
+
+/*******************************************************************************
+* all masthead styles below
+*******************************************************************************/
+
+#masthead.main
+{
+	background-image: url("../images/30_anni_header5.jpg");
+	background-repeat: repeat;
+	background-position: -9px -10px;
+}
+#masthead.flowers
+{
+	background-image: url("../images/30_anni_headerC.jpg");
+	background-repeat: repeat;
+	background-position: -9px -10px;
+}
+#masthead.sky
+{
+	background-image: url("../images/30_anni_headerB.jpg");
+	background-repeat: repeat;
+	background-position: -9px -10px;
+}
+
+#masthead.butterfly
+{
+	background-image: url("../images/30_anni_headerButtrfly.jpg");
+	background-repeat: repeat;
+	background-position: -9px -10px;
+}
+#masthead.reunion
+{
+	background-image: url("../images/30_anni_header_reunion.jpg");
+	background-repeat: repeat;
+	background-position: -9px -10px;
+}
+/*******************************************************************************
+*  below hacks fixes to bgImages.css  for IE6Win
+* ------------------------------------------------------------------------------
+*  fixes masthead in IE fixes background image display in ie6win - ingo chao -
+*  via higher specificity see multiclass bug http://sonspring.com/index.php?id=102
+*******************************************************************************/
+
+html .flowers
+{
+	background-image: url("../images/30_anni_headerC.jpg");
+	background-repeat: repeat;
+	background-position: -9px -10px;
+}
+
+html .sky
+{
+	background-image: url("../images/30_anni_headerB.jpg");
+	background-repeat: repeat;
+	background-position: -9px -10px;
+}
+
+
+html .butterfly
+{
+	background-image: url("../images/30_anni_headerButtrfly.jpg");
+	background-repeat: repeat;
+	background-position: -9px -10px;
+}
+
+html .reunion
+{
+	background-image: url("../images/30_anni_header_reunion.jpg");
+	background-repeat: repeat;
+	background-position: -9px -10px;
+}
+/*******************************************************************************
+*  end ie6 win hacks
+*******************************************************************************/
+.hnav ul li a
+{
+	background-image: url("../images/stripes_bkgrd_blue.gif");
+	background-repeat: repeat;
+	background-position: 0px -12px;
+}
+
+.hnav ul li a:hover
+{
+	background-image: url("../images/stripes_bkgrd_blue.gif");
+	background-repeat: repeat;
+	background-position: 1px -13px;
+}
+
+.hnav
+{
+	background-image: url("../images/lawcenter_script_bg.jpg");
+	background-repeat: no-repeat;
+	background-position: -1px -10px;
+}
+
+
+
+/*******************************************************************************
+*.hnav ul li a:hover
+*{
+*	background-image: url("../images/header_bg.gif");
+*}
+*******************************************************************************/
+
+#footer
+{
+	background-image: url("../images/stripes_bkgrd_blue.gif");
+	background-repeat: repeat;
+	background-position: 100% -400px;
+}
+
+
+
+
+
+#contentColumn
+{
+	background-color: transparent;	/* need to reset the background color of
+					   the content column because we set it
+					   in v4.css */
+}
+/*******************************************************************************
+*#innerColumnContainer
+*{
+*	background-image: url("../images/lic_script_bg.jpg");
+*	background-repeat: no-repeat;
+*	background-position: 1px -1px;
+*}
+*******************************************************************************/
+body
+{
+	background-image: url("../images/gradient_dkltblue_stripes2.jpg");
+	background-repeat: repeat;
+	background-position: 100% 0;
+}
+/*******************************************************************************
+.vnav ul li a
+{
+	background-image: url("../images/header_bg.gif");
+	background-repeat: repeat;
+	background-position: 100% 0;
+}
+*******************************************************************************/
+
+
+.vnav ul.categories li a
+{
+	 padding-left: 16px;
+	background-image: url("../images/milk_arrow.png");
+	  background-repeat: no-repeat;
+	   background-position: 0 .4em;
+}
+
+.vnav ul.categories li.private a
+{
+	 padding-left: 14px;
+	background-image: url("../images/user_friend.png");
+	  background-repeat: no-repeat;
+	   background-position: 0 .5em;
+}
+
+.vnav ul.categories li.directory a
+{
+	 padding-left: 14px;
+	background-image: url("../images/documents.gif");
+	  background-repeat: no-repeat;
+	   background-position: 0 .5em;
+}
+
+
+
+/*******************************************************************************
+.vnav ul li
+{
+	 padding-left: 10px;
+	background-image: url("../images/tiny_doc.gif");
+	  background-repeat: no-repeat;
+	   background-position: 0 .5em;
+}
+*******************************************************************************/
+
+.vnav ul.feeds li a
+{
+	 padding-left: 13px;
+	background-image: url("../images/document.gif");
+	  background-repeat: no-repeat;
+	   background-position: 0 .4em;
+}
+
+
+.vnav ul.feeds li.external a
+{
+	 padding-left: 13px;
+	background-image: url("../images/external.gif");
+	  background-repeat: no-repeat;
+	   background-position: 0 .4em;
+}
+
+/*******************************************************************************
+.vnav ul li a:hover
+{
+	background-image: url("../images/header_bg.gif");
+	background-repeat: repeat;
+	background-position: 100% 0;
+}
+*******************************************************************************/
+.hnav_permalink ul li
+{
+	
+	background-image: url("../images/milk_arrow.png");
+	background-repeat: no-repeat;
+	background-position: 0 2px;
+}
+
+
+
+
+
+h2.highlight
+{
+	background-image: url("../images/bullet_gavel4.jpg");
+	background-repeat: no-repeat;
+	background-position: 0 4px;
+	padding-left: 31px;
+}
+
+h3
+{
+	background-image: url("../images/stripes_bkgrd_blue.gif");
+	background-repeat: repeat;
+	background-position: -5px 0px;
+
+}
+
+h3.border
+{
+	background-image: url("../images/stripes_bkgrd_blue.gif");
+	background-repeat: repeat;
+	background-position: -5px 0px;
+
+}
+
+
+/******************************************************************************/
+
+.quote {
+	background-image: url("../images/quotesBlue.gif");
+	background-repeat: no-repeat;
+	background-position: -4px -3px;
+	
+	}

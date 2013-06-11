@@ -1,0 +1,61 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+	"http://www.w3.org/TR/html4/strict.dtd">
+
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<link rel="stylesheet" href="css/v4.css" type="text/css" media="screen">
+		<link rel="stylesheet" href="css/screen_2col.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/bgImages.css" type="text/css" media="screen">
+		<link rel="stylesheet" href="css/print.css" type="text/css" media="print">
+		<script type="text/javascript" src="js/ruthsarian_utilities.js"></script>
+		<script type="text/javascript">
+		<!--
+			if ( ( typeof( NN_reloadPage ) ).toLowerCase() != 'undefined' ) { NN_reloadPage( true ); }
+			if ( ( typeof( opacity_init  ) ).toLowerCase() != 'undefined' ) { opacity_init(); }
+			if ( ( typeof( set_min_width ) ).toLowerCase() != 'undefined' ) { set_min_width( 'pageWrapper' , 500 ); }
+		//-->
+		</script>
+		<title>Celebrating 30 Years of Excellence - Widener Law </title>
+	</head>
+	<body>
+	
+		<div id="oldBrowserNotice" class="hide">
+
+<p>
+	This site will look much better in a browser that supports 
+	<a href="http://www.webstandards.org/upgrade/" 
+	title="Download a browser that complies with Web standards.">web 
+	standards</a>, but it is accessible to any browser or Internet 
+	device.
+</p>
+
+		</div>
+		
+		
+		
+		<div id="pageWrapper">
+			
+			<div id="masthead" class="butterfly">
+
+<h1 style="font-style:italic;">&nbsp;</h1>
+
+			</div>
+			
+			
+			<hr class="hide">
+			<div class="hnav">
+
+<!--
+	you must preserve the (lack of) whitespace when creating your own
+	horizontal navigation elements, otherwise the extra whitespace will
+	break the visual layout. although how it breaks (tiny spaces between each
+	element) is an effect that some may desire.
+-->
+
+<ul><li><a
+	href="http://law.widener.edu/Gateway/Alumni.aspx">Widener Law Alumni Home</a><span class="divider"> : </span></li><li><a
+	href="http://law.widener.edu/Gateway/Alumni/ContactAlumniRelations.aspx">Contact Alumni &amp; Development</a><span class="divider"> : </span></li></ul>
+
+			</div>
+			

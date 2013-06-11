@@ -1,0 +1,107 @@
+@charset "iso-8859-1";
+
+/*******************************************************************************
+*  borders.css : 2004-07-29 : Ruthsarian Layouts
+* ------------------------------------------------------------------------------
+*  this stylesheet defines any and all borders that are rendered on the layou.
+*  this includes the left and right-hand borders of the #outerColumnContainer
+*  element which are used as the backgrounds for the left and right columns.
+*******************************************************************************/
+
+#pageWrapper
+{
+	border-style: solid;	/* explicitly defined within eact selector in 
+				   case you want change border styles (to mix 
+				   it up) between elements */
+	border-width: 0 1px;	/* puts a border on the left and right sides of
+				   the page. #masthead and #footer will handle 
+				   the top and bottom borders */
+}
+#outerColumnContainer
+{
+	/* the borders used to create/reserve space for the side columns are
+	   now defined in base.css because they are an integral part of
+	   the layout. */
+}
+#innerColumnContainer
+{
+	border-style: solid;
+	border-width: 0 1px;	/* puts borders between center and the side 
+				   columns. */
+	margin: 0 -1px;		/* compensation for the borders because of
+				   100% width declaration on this object */
+}
+* html #outercolumncontainer
+{
+	/* IE5.0/Win fix for 1px whitespace between masthead and body. */
+	margin-top: -1px;
+	border-top: solid 1px #ddd;
+}
+#masthead
+{
+	border-style: solid;
+	border-width: 1px 0;	/* handles the top of the layout's border and the
+				   bottom of the masthead section */
+}
+.hnav
+{
+	border-style: solid;
+	border-width: 0 0 1px 0;
+}
+.hnav2
+{
+	border: none;
+}
+
+#footer
+{
+	border-style: solid;
+	border-width: 1px 0;	/* handles the top of the footer section and 
+				   the bottom of the entire layout */
+}
+
+h2.title
+{
+	border-style: dotted;
+	border-width: 0 0 1px 0;
+	
+	
+}
+
+h3.border
+{
+	border-style: dotted;
+	border-width: 1px 0 1px 0;
+	
+	
+}
+
+.quote {
+	
+
+	border: 1px dotted #ddd;
+
+	}
+	.thumbnail img {
+	
+
+	border: 1px solid #ddd;
+
+	}
+
+/******************************************************************************/
+.shadowbox {
+	
+
+	border: 1px dotted #ddd;
+
+	}
+	.smallbox {
+	
+
+	border-top: 1px dotted #ddd;
+	border-bottom: 1px dotted #ddd;
+	border-left: none;
+	border-right: none;
+
+	}

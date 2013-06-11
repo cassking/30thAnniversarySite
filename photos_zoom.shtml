@@ -1,0 +1,79 @@
+<!--//**Begin header.shtml include**//-->
+<!--#include virtual="/30th/inc/header_flowers_photos.shtml"-->
+
+
+			<div id="outerColumnContainer">
+				<div id="innerColumnContainer">
+					<hr class="hide">
+					<div id="leftColumn">
+						<div class="inside">
+						
+<h2 class="subsection">Photo Gallery</h2>
+<p style="font-size:80%;">
+	Images: then and now
+</p>
+<!--//**Begin vnav.shtml include**//-->
+<!--#include virtual="/30th/inc/vnav.shtml"-->
+
+
+<!--
+	Won't validate XHTML 1.1 because I use the name property for an anchor (to be
+	backwards compatible with version 4 and earlier browsers). It's a personal belief
+	that XHTML 1.1 should at least include the name property. But since it doesn't,
+	I can't put these here.
+
+	<p>
+		<a href="http://validator.w3.org/check/referer"><img
+			src="http://www.w3.org/Icons/valid-xhtml11"
+			alt="Valid XHTML 1.1!" height="31" width="88" style="border-width:0;"></a>
+	</p>
+	<p>					
+		<a href="http://jigsaw.w3.org/css-validator/"><img
+			src="http://jigsaw.w3.org/css-validator/images/vcss"
+			alt="Valid CSS!" height="31" width="88" style="border-width:0;"></a>
+	</p>
+-->
+
+						</div>
+					</div>
+					<hr class="hide">
+					<div id="rightColumn">
+						<div class="inside">
+						
+
+
+
+						</div>
+					</div>
+					<div id="contentColumn">
+						<hr class="hide">
+						<a name="skipToContent" id="skipToContent"></a>
+						<div class="inside">
+
+
+<div id="main">
+  <div class="center">
+  <p> &larr; <a href="http://www.law.widener.edu/30th/photos.shtml" title="return to the photo gallery main page">Return to the Photo Gallery Main Page</a>
+  <script language="javascript">
+    var queryObj = parseQueryString( location.search );
+	var	alt = unescape(queryObj.alt);
+	document.write("<h4>" + alt + "</h4>");
+	document.write("<img src=\"" + queryObj.src + "\" width=\"430\" height=\"" + queryObj.height + "\" alt=\"" + alt + "\" /><br />\n");
+  </script>
+  </div>
+  <p class="clear">These images are &copy; Widener University School of Law</p>
+</div>
+
+						</div>
+					</div>
+					<div class="clear mozclear"></div>
+				</div>
+			</div>
+			<div class="hide" id="nsFooterClear"><!-- for NS4's sake --></div>
+			<hr class="hide">
+				<!--//**Begin footer.shtml include**//-->
+<!--#include virtual="/30th/inc/footer.shtml"-->
+			<hr class="hide">
+		</div>
+	</body>
+</html>

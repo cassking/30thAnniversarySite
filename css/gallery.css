@@ -1,0 +1,164 @@
+/* Photo gallery template ||| Joshuaink.com ||| March 2005 ||| Free to use but this credit must remain in place */
+
+*{
+	margin:0;
+	padding:0;
+	font-size:100%;
+	
+
+}
+
+
+#outerwrap{
+	width:100%;
+	margin:1px;
+	padding:1px;
+	position:relative;
+	border:0 none;
+
+	
+}
+#outerwrap p 
+{
+text-align:center;
+margin-right: 30px;
+}
+
+* html #outerwrap p /* comment hides from iemac */
+{/*\*/
+margin-top: -30px;
+}
+/*end iemac hide*/
+
+#wrap{
+	width:99%;
+	margin:0 auto;
+	position:relative;
+	border: 0 none;
+
+}
+
+
+#main-content li{
+	width:180px;
+	border-left:solid #eee;
+	border-right:solid #ccc;
+	border-top:solid #eee;
+	border-bottom:solid #ccc;
+	border-width:1px;
+/* uncomment and adjust this if you want a rounded frame in Mozilla browsers
+	-moz-border-radius:20px;
+ */
+	background:#FFF;
+	padding:10px;
+	text-align:center;
+	position:relative;
+	float:left;
+	display:inline;
+	margin:5px;
+}
+
+#fullplate-navigation{
+	list-style: none;
+	margin:5px 0 40px 5px;
+	border: 0 none;
+	width: 400px;
+	
+
+}
+
+#fullplate-navigation li{
+	display: block;
+	float:left;
+	width:130px;
+	border: 0 none;
+		
+}
+
+#previous{
+	text-align:left;
+}
+
+#next{
+	text-align:right;
+}
+
+
+#fullplate-navigation li a{
+	display:block;
+	width:120px;
+	padding:4px;
+	border: 0 none;
+	text-align: center;
+}
+
+#fullplate-navigation li a:hover{
+	color:#333;
+	text-decoration: none;
+}
+
+
+
+
+#fullplate-photo{
+	border:solid #EEE;
+	border-width:1px 2px 1px 2px;
+/* uncomment and adjust this if you want a rounded frame in Mozilla browsers
+	-moz-border-radius:20px;
+ */
+	background:#fff;
+	padding:5px 5px 8px 5px;
+	margin:0 auto;
+	width:440px;
+
+	
+}
+
+
+
+#main-content  a span{
+/*\*/
+	position:absolute;
+	left:-9999px;
+
+}
+/* fix for IE 6 as per SuzyUK
+The fix for IE 6 is to declare a rule for the #main-content a:hover state, 
+so that there's a change between it and the inactive, normal link state 
+(or at least, so that there's a rule explicitly declared in the hover state 
+that is only implicit in the inactive link state). 
+declare this for the hover state:
+ */
+ #main-content a:hover
+ { white-space: normal; 
+ }
+* html #main-content a:hover span
+{ /*\*/ left:1px;}
+/*end iemac hide*/
+
+#main-content a:hover span{
+	top:10px;
+	left:15px;
+	width:170px;
+	font-weight:bold;
+	background:#FFF;
+	color:#999;
+	padding:5px 0 5px 0;
+	text-decoration: underline;
+	font-size:95%;
+	border:1px solid #EEE;
+	border-width:0 0 10px 0;
+	filter: alpha(opacity=100);
+	/*-moz-opacity:.8;
+		opacity:.80;*/
+/**/
+} 
+
+
+ 
+img{
+border:1px solid #ccc;
+padding: 2px;
+
+}
+

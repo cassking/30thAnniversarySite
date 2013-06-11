@@ -1,0 +1,187 @@
+@charset "iso-8859-1";
+
+/*******************************************************************************
+*  colors.css : 2004-06-28 : Ruthsarian Layouts
+* ------------------------------------------------------------------------------
+*  defines background and foreground colors of elements within the layout.
+*  sites that want to use different color schemes for different sub-sections
+*  of a website need only make different versions of this stylesheet and link
+*  or import them as need. The other stylesheets can be shared across the
+*  entire site.
+*******************************************************************************/
+
+body
+{
+	background-color: #fff;
+	color: #666;
+}
+a
+{	color: #4753ac;
+	
+}
+a:hover
+{	color: #009;
+	}
+	
+#outerColumnContainer
+{
+	border-left-color: #fff;	/* left hand column background color */
+	border-right-color: #fff;	/* right hand column background color */
+}
+#masthead
+{
+	background-color: #ccc;
+	color: #fff;
+}
+#footer
+{
+	background-color: #ccc;
+	color: #3f4a98;
+}
+#outerColumnContainer, #contentcolumn	/* selector case hack to reset version 4
+					   stylesheet setting */
+{
+	background-color: #fff;		/* this sets the background color on the
+					   center column */
+	color: #000;
+}
+#leftColumn, #rightColumn, #contentColumn
+{
+
+	color: #666;
+}
+
+* html #leftColumn /*need to declare bg color for ie6, comments hide from Mac IE*/
+{ /*\*/
+	background-color: #fff;
+
+}
+/*end iemac hide*/
+.vnav ul li a
+{
+	color: #4753ac;
+	background-color: #fff;
+}
+#rightColumn .vnav ul li a:hover, .vnav ul li a:hover
+{
+	background-color: #fff;
+	color: #009;
+}
+#rightColumn .vnav ul li a
+{
+	color: #4753ac;
+	background-color: #fff;
+}
+
+.hnav, .hnav ul li a
+{
+	
+	color: #4753ac;
+	border-color: #eee;
+	
+}
+.hnav ul li a:hover
+{
+	
+	color: #009;
+	border-color: #eee;
+
+}
+
+
+p.permalink a
+{	color: #4753ac;
+	
+}
+p.permalink a:hover
+{	color: #009;
+	}
+#pageWrapper, #innerColumnContainer, #masthead, #footer, .hnav
+{
+	background-color: #fff;
+	border-color: #eee;
+}
+
+
+.quote {
+	
+	background-color: #eef0fa;
+	
+	color: #3f4a98;
+	}
+h3.red
+{	color: #aa3939;
+
+}
+h3.white
+{	color: #fff;
+
+}
+
+h3.border
+{
+border-color: #ddd;
+}
+h2.subsection
+{	color: #4753ac;
+
+}
+
+h2.title
+{
+
+	border-color: #aa3939;
+	
+}
+
+h2.red
+{color: #aa3939;
+}
+h2.link a
+{
+text-decoration: none;
+color: #666;
+
+}
+
+h2.link a:hover
+{
+text-decoration: none;
+color: #009;
+
+}
+h1.black
+{	color: #000;
+}
+
+h1.highcontrastblue
+{	color: #361DA9;
+}
+
+h1.lightblue
+{	color: #8ACBF6;
+}
+
+h1.orange
+{	color: #FF9100;
+}
+
+h1.highcontrastgreen
+{
+	 color: #10302C;
+	 }
+	 
+	 h1.yellow
+{
+	 color: #FFF280;
+	 }
+
+h1.highcontrastred
+{
+	 color: #6F2813;
+	 }
+	 
+.red
+{color: #aa3939;
+}
+/******************************************************************************/

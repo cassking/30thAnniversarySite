@@ -1,0 +1,126 @@
+
+<!--//**Begin header.shtml include**//-->
+<!--#include virtual="/30th/inc/header.shtml"-->
+<div id="outerColumnContainer">
+				<div id="innerColumnContainer">
+					<hr class="hide">
+					<div id="leftColumn">
+						<div class="inside">
+						
+<h2 class="subsection">Welcome to our 30th Year Celebration Site!</h2>
+<p style="font-size:80%;">
+	More information on the celebration and events.
+</p>
+<!--//**Begin vnav.shtml include**//-->
+<!--#include virtual="/30th/inc/vnav.shtml"-->
+
+
+						</div>
+					</div>
+					<hr class="hide">
+					<div id="rightColumn">
+						<div class="inside">
+						</div>
+					</div>
+					<div id="contentColumn">
+						<hr class="hide">
+						<a name="skipToContent" id="skipToContent"></a>
+						<div class="inside">
+<h2 class="red title highlight">Welcome Message from the Dean</h2>
+<p>	<img class="pictrightnoborder printHide" src="images/30_photo_content.jpg" alt="" width="300" height="259" />
+Widener Law School is celebrating the 30th Anniversary of its first graduating class.
+<br /><br />
+The members of the class of 1975 made a huge leap of faith when they enrolled in our institution. The school achieved 
+American Bar Association accreditation - a necessity for graduates to sit for the bar exam - just 
+shortly before the first class graduated in August 1975. Today we are proud to be Delaware's only law school, with a 
+vibrant second campus in Harrisburg, Pennsylvania.  We have more than 10,000 alumni nationwide and we enjoy a strong regional
+presence with many alumni living or working in our tri-state area.  Our alumni serve in more than 90 judgeships and in
+law firms ranging from small boutiques to national powerhouses.
+<br /><br />
+Our progress over 30 years is impressive especially considering the school's humble beginnings in the Wilmington YWCA 
+building,
+where students sometimes served as carpenters and janitors. The Law School now serves as an East Coast center for the 
+prestigious National Judicial College and boasts a nationally-ranked health law program. Our corporate, law and government,
+trial advocacy and environmental law programs continue to gain prominence.  Widener has also grown into a shining example
+for public service. Students working through its law clinics, Public Interest Resource Center in Wilmington, and Public
+Interest Initiative in Harrisburg serve the disadvantaged.  Many of our faculty play leading roles in the ABA and other
+professional organizations, and their scholarship helps shape public policy.  
+<br /><br />
+We have much to celebrate. I hope you will take a moment to share a special memory of the law school here on our website. 
+It is a fitting place to reflect on all that Widener and its graduates have done to improve society, their communities, 
+and the lives of those they have served through the law.
+<br /><br />
+Sincerely,
+<br /><br />
+
+Michael J. Goldberg<br />
+Acting Dean of the Widener University School of Law</p>
+
+
+<h2 class="red title highlight">The Anniversary Gala Event</h2>
+<p>
+More than 300 people gathered Friday, Oct. 7 at The National Constitution Center in Philadelphia to help Widener University School of Law celebrate its extraordinary history and the 30th anniversary of its first graduating class.
+
+</p>
+
+<p style="font-size:80%;">
+Learn More:
+</p>
+<div class="hnav_permalink">
+<ul>
+		<li><a href="events.shtml">Read more about the Gala event</a><span class="divider"> : </span></li>
+
+	
+	
+</ul>
+</div><p style="font-size:80%;">
+Alumni &amp; Development Office, Updated: 
+	<!--#config timefmt="%m/%d/%Y"-->
+	<!--#flastmod virtual="/30th/events.shtml" --></p>
+
+
+
+<h2 class="red title highlight">Consider A Donation</h2>
+<p><img class="pictrightnoborder printHide" src="images/30_photo_76grads.jpg" alt="" width="300" height="259" />
+
+Our celebration of the 30th Anniversary of the first graduating class is a fitting time to ask that you 
+consider making a donation to the Widener University School of Law ... 
+</p>
+
+
+<p style="font-size:80%;">
+Learn More:
+</p>
+<div class="hnav_permalink">
+<ul>
+		<li><a href="donate.shtml">Consider a Donation</a><span class="divider"> : </span></li>
+
+	
+	
+</ul>
+</div><p style="font-size:80%;">
+Alumni &amp; Development Office, Updated: 
+	<!--#config timefmt="%m/%d/%Y"-->
+	<!--#flastmod virtual="/30th/donate.shtml" --></p>
+
+
+
+
+
+
+						</div>
+					</div>
+					<div class="clear mozclear"></div>
+				</div>
+			</div>
+		
+			<div class="hide" id="nsFooterClear"><!-- for NS4's sake --></div>
+			<hr class="hide">
+			
+			<!--//**Begin footer.shtml include**//-->
+<!--#include virtual="/30th/inc/footer.shtml"-->
+
+			<hr class="hide">
+		</div>
+	</body>
+</html>

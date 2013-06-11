@@ -1,0 +1,120 @@
+
+<!--//**Begin header.shtml include**//-->
+<!--#include virtual="/30th/inc/header_sky.shtml"-->
+
+
+
+
+
+
+			<div id="outerColumnContainer">
+				<div id="innerColumnContainer">
+					<hr class="hide">
+					<div id="leftColumn">
+						<div class="inside">
+						
+<h2 class="subsection">Schedule of Events</h2>
+<p style="font-size:80%;">
+	Come join the fun!
+</p>
+<!--//**Begin vnav.shtml include**//-->
+<!--#include virtual="/30th/inc/vnav.shtml"-->
+
+
+<!--
+	Won't validate XHTML 1.1 because I use the name property for an anchor (to be
+	backwards compatible with version 4 and earlier browsers). It's a personal belief
+	that XHTML 1.1 should at least include the name property. But since it doesn't,
+	I can't put these here.
+
+	<p>
+		<a href="http://validator.w3.org/check/referer"><img
+			src="http://www.w3.org/Icons/valid-xhtml11"
+			alt="Valid XHTML 1.1!" height="31" width="88" style="border-width:0;"></a>
+	</p>
+	<p>					
+		<a href="http://jigsaw.w3.org/css-validator/"><img
+			src="http://jigsaw.w3.org/css-validator/images/vcss"
+			alt="Valid CSS!" height="31" width="88" style="border-width:0;"></a>
+	</p>
+-->
+
+						</div>
+					</div>
+					<hr class="hide">
+					<div id="rightColumn">
+						<div class="inside">
+						
+
+
+
+						</div>
+					</div>
+					<div id="contentColumn">
+						<hr class="hide">
+						<a name="skipToContent" id="skipToContent"></a>
+						<div class="inside">
+
+
+<h2 class="red title highlight">The Anniversary Gala held on Friday, October 7, 2005</h2>
+<div class="shadowbox">
+<p><img class="pictleft printHide" src="http://law.widener.edu/30th/images/quicktime6_logo.gif" 
+alt="Quicktime logo" width="54" height="58" /> Watch  a <a href="http://law.widener.edu/30th/photos_quicktime.shtml">Quicktime MOVIE</a> of 
+the 30th Anniversary Gala event held on October 7, 2005.  <strong>Please Note:</strong> this is a large movie file. After clicking 
+through to watch the movie, please allow a few seconds for the movie to 
+load in your browser.</p>
+</div>
+
+
+
+<p><img class="pictrightnoborder printHide" src="images/30th_goldberg.jpg" alt="Michael J. Goldberg" width="300" height="259" />More than 300 people gathered Friday, Oct. 7 at The National Constitution Center in Philadelphia to help Widener University School of Law celebrate its extraordinary history and the 30th anniversary of its first graduating class.</p>
+
+<p>Guests mingled in the center's Grand Hall to the sounds of a brass quartet and strolled through the museum exhibits before the dinner and program began around 8 p.m.</p>
+
+<p> Acting Law School Dean Michael J. Goldberg (photo right) began the night's remarks with a speech that honored the Law School's history and some of the people who were instrumental in its beginning. His talk was infused with photographic images of the people he spoke about, prompting particularly enthusiastic applause at the appearance of Alfred Avins, who gave the Law School its start, and retired Judge Charles Mirarchi, a key figure in the school's early parent association, which provided vital support.</p>
+ 
+<p>"Thirty years later, and now with two vibrant Law School campuses and more than 10,000 graduates, the dreams of our founders have been realized and exceeded beyond their wildest expectations," Goldberg said.</p>
+
+<p>Other speakers included Widener University President James T. Harris III and Third Circuit Court of Appeals Judge and Pennsylvania First Lady Marjorie Rendell, who gave the keynote address.</p>
+
+<p>"I commend you on this 30th anniversary and your paying tribute to your past," Rendell said. "It is so important that we recall and understand our past, for only then can we truly appreciate the present, and plan ahead for the challenges that lie ahead in our future.  As a country, we need to do this as well. We must constantly remind ourselves that we have been given a gift, the gift of democracy."</p>
+
+<p><img class="pictrightnoborder printHide" src="images/30th_barsamian.jpg" alt="Steve Barsamian" width="300" height="259" /> Philadelphia attorney and '78 alumnus Eugene D. McGurk Jr., chairman of the Law School Board of Overseers, gave the outstanding alumnus of the year award to '75 graduate Steven P. Barsamian (photo right). The award is presented to an alumnus or alumna who, through service to his or her community or profession, or other accomplishments, has brought honor, recognition, and distinction to the Widener University School of Law. Barsamian has a private practice in Philadelphia. He serves as president of Law School Alumni Association.</p>
+
+<p>"We were pleased to honor Steve's substantial contributions at such a special occasion," said assistant vice president for law school development and alumni relations Deborah McCreery, whose office organized the gala. "It was a night of celebration in a most fitting place."</p>
+
+<p>The National Constitution Center is the nation's only museum dedicated to the U.S. Constitution and its history. Museum exhibits were open during the gala and guests roamed the spectacular building, with its interactive and multi-media features including "The American Experience" exhibit wrapped in 450 feet of illuminated glass. </p>
+
+<p>The school's first law students, who enrolled in 1971, attended classes in the Wilmington <acronym>YWCA</acronym>. They acted as carpenters, janitors and electricians and traveled up and down the East Coast collecting donated law books for a library. Some stored books in their garages. There was one full-time faculty member.</p>
+
+<p>Today, the Widener University School of Law has campuses in Wilmington and Harrisburg. It has a nationally-ranked health law program and prestigious environmental, trial advocacy, corporate law, and law and government programs. The Legal Information Center, or law library, has combined holdings of 608,000 volumes.</p>
+
+
+
+<p style="font-size:80%;">
+Alumni &amp; Development Office, Updated: 
+	<!--#config timefmt="%m/%d/%Y"-->
+	<!--#flastmod virtual="/30th/events.shtml" --></p>
+
+
+
+
+
+
+
+
+						</div>
+					</div>
+					<div class="clear mozclear"></div>
+				</div>
+			</div>
+			<div class="hide" id="nsFooterClear"><!-- for NS4's sake --></div>
+			<hr class="hide">
+			
+			<!--//**Begin footer.shtml include**//-->
+<!--#include virtual="/30th/inc/footer.shtml"-->
+
+			<hr class="hide">
+		</div>
+	</body>
+</html>

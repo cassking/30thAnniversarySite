@@ -1,0 +1,100 @@
+<!--//**Begin header.shtml include**//-->
+<!--#include virtual="/30th/inc/header_flowers_photos.shtml"-->
+
+
+			<div id="outerColumnContainer">
+				<div id="innerColumnContainer">
+					<hr class="hide">
+					<div id="leftColumn">
+						<div class="inside">
+						
+<h2 class="subsection">Photo Gallery</h2>
+<p style="font-size:80%;">
+	Images: then and now
+</p>
+<!--//**Begin vnav.shtml include**//-->
+<!--#include virtual="/30th/inc/vnav.shtml"-->
+
+
+<!--
+	Won't validate XHTML 1.1 because I use the name property for an anchor (to be
+	backwards compatible with version 4 and earlier browsers). It's a personal belief
+	that XHTML 1.1 should at least include the name property. But since it doesn't,
+	I can't put these here.
+
+	<p>
+		<a href="http://validator.w3.org/check/referer"><img
+			src="http://www.w3.org/Icons/valid-xhtml11"
+			alt="Valid XHTML 1.1!" height="31" width="88" style="border-width:0;"></a>
+	</p>
+	<p>					
+		<a href="http://jigsaw.w3.org/css-validator/"><img
+			src="http://jigsaw.w3.org/css-validator/images/vcss"
+			alt="Valid CSS!" height="31" width="88" style="border-width:0;"></a>
+	</p>
+-->
+
+						</div>
+					</div>
+					<hr class="hide">
+					<div id="rightColumn">
+						<div class="inside">
+						
+
+
+
+						</div>
+					</div>
+					<div id="contentColumn">
+						<hr class="hide">
+						<a name="skipToContent" id="skipToContent"></a>
+						<div class="inside">
+
+
+<h2 class="red title highlight">Widener Law Timeline, Photos 1971 - 2005</h2>
+
+
+
+
+<p><a href="http://law.widener.edu/30th/ppt/30thWLaw_annivppt.zip" 
+	title="Download the powerpoint presentation"><img class="pictleft printHide" src="http://law.widener.edu/30th/images/powerpoint.jpg" 
+alt="Powerpoint logo" width="48" height="39" /></a> <strong>30th Anniversary Widener Law Timeline Slideshow - Over 100 Images from 1975 to 2005!</strong>
+This is a full Zipped version of the Powerpoint presentation that was shown at the Gala event on October 7, 2005 at the National Constitution Center.  You will need a <a href="http://www.download.com/ZipGenius/3000-2250_4-10418581.html?tag=lst-6-2">decompression utility</a> 
+to unzip the file
+and <a href="http://www.microsoft.com/downloads/details.aspx?FamilyID=428d5727-43ab-4f24-90b7-a94784af71a4&amp;displaylang=en" title="Microsoft site">Powerpoint Viewer 2003</a> view the file. Both are free downloads.
+<br /><br />
+
+<strong>Warning:</strong> this is a fairly large download. The best way to access a large
+file is to: right-click on the link, select 'save target as' (in Microsoft IE)/ 'save 
+link target as' (in Netscape) from the menu, and save to your PC before opening. 
+Macintosh users, click on the link, hold mouse down and choose 'download link to disk' 
+from the menu.
+</p>
+
+<p>
+
+<span class="medium"> <a href="http://law.widener.edu/30th/ppt/30thWLaw_annivppt.zip" 
+	title="Download the powerpoint presentation">Download the 30th Anniversary Widener Law Timeline Slideshow</a><br />
+	<abbr>MS</abbr> Powerpoint Format - Zipped<br />
+Size: <!--#fsize virtual="/30th/ppt/30thWLaw_annivppt.zip" --><br />
+Last Updated:<br />
+<!--#config timefmt="%m/%d/%Y <br /> %I:%M%p"-->
+<!--#flastmod virtual="/30th/ppt/30thWLaw_annivppt.zip" --></span> <br />
+
+</p>
+
+
+
+						</div>
+					</div>
+					<div class="clear mozclear"></div>
+				</div>
+			</div>
+			<div class="hide" id="nsFooterClear"><!-- for NS4's sake --></div>
+			<hr class="hide">
+				<!--//**Begin footer.shtml include**//-->
+<!--#include virtual="/30th/inc/footer.shtml"-->
+			<hr class="hide">
+		</div>
+	</body>
+</html>

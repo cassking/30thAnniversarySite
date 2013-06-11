@@ -1,0 +1,93 @@
+@charset "iso-8859-1";
+
+/*******************************************************************************
+*  hnav.css : 2004-06-30 : Ruthsarian Layouts
+* ------------------------------------------------------------------------------
+*  responsible for the horizontal navigation elements, one of which is usually
+*  placed below the masthead but on top of the columns.
+*******************************************************************************/
+
+.hnav2
+{
+	white-space: nowrap;
+	margin: 0;
+	padding: 3px 0 4px 0;
+}
+.hnav2 ul span.divider
+{
+	display: none;
+}
+* html .hnav2/* Hide from IE5/Mac (& IE5.0/Win) */
+{
+	height: 1%;	/* holly hack to fix a render bug in IE6/Win */
+}
+* html .hnav2
+{
+	height: auto;	/* above IE6/Win holly hack breaks IE5/Win when page 
+			   length get beyond the point that 1% height is taller 
+			   than the text height. IE5/Win does not need this 
+			   holly hack so we remove it here */
+	padding: 0;	/* IE5/Win will resize #hnav to fit the heights of its
+			   inline children that have vertical padding. So this
+			   incorrect case selector will remove that padding */
+}
+.hnav2 ul
+{
+	text-align: left;
+	list-style-type: none;
+	line-height: normal;
+	margin: 0;
+	padding: 0;
+}
+.hnav2 ul li
+{
+	display: inline;
+	white-space: nowrap;
+	margin: 0;
+}
+.hnav2 ul li a
+{
+	text-decoration: none;
+	margin: 0 -1px 0 0;
+	padding: 3px 10px 4px 10px;
+	border-top: dotted 1px #999;
+	border-left: dotted 1px #999;
+	border-right: dotted 1px #999;
+}
+* html .hnav2 ul li a
+{
+	width: 1%;	/* holly hack for IE5/Win inline padding. this 
+			   hack fixes different rendering bugs in 5.0 and 5.5.
+			   Width is used instead of height because if the 
+			   document is too long, these elements become very tall
+			   and disrupt the look of the document. too wide an 
+			   element is better, visually, than too tall. */
+}
+.hnav2 ul li a:hover
+{
+	text-decoration: none;
+}
+
+* html .hnav2 ul li, * html .hnav2 ul li a
+{
+	width: 1%; /* IE/Mac needs this */
+	display: inline-block;	/* IE/Mac needs this */
+	/* \*/
+		width: auto;
+		display: inline; 
+	/* reset above hack */
+}
+* html .hnav2, * html .hnav2 ul a
+{
+	/* \*/ height: 0.01%; /* hasLayout hack to fix render bugs in IE/Win. 
+				 IE/Mac will ignore this rule. */
+}
+* html .HNAV2
+{
+	padding: 0;	/* IE5/Win will resize #hnav to fit the heights of its
+			   inline children that have vertical padding. So this
+			   incorrect case selector hack will be applied only by
+			   IE 5.x/Win */
+}
+
+/******************************************************************************/

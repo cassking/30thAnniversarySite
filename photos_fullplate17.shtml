@@ -1,0 +1,90 @@
+<!--//**Begin header.shtml include**//-->
+<!--#include virtual="/30th/inc/header_flowers_photos_joshua.shtml"-->
+
+
+			<div id="outerColumnContainer">
+				<div id="innerColumnContainer">
+					<hr class="hide">
+					<div id="leftColumn">
+						<div class="inside">
+						
+<h2 class="subsection">Photo Gallery</h2>
+<p style="font-size:80%;">
+	Images: then and now
+</p>
+<!--//**Begin vnav.shtml include**//-->
+<!--#include virtual="/30th/inc/vnav.shtml"-->
+
+
+<!--
+	Won't validate XHTML 1.1 because I use the name property for an anchor (to be
+	backwards compatible with version 4 and earlier browsers). It's a personal belief
+	that XHTML 1.1 should at least include the name property. But since it doesn't,
+	I can't put these here.
+
+	<p>
+		<a href="http://validator.w3.org/check/referer"><img
+			src="http://www.w3.org/Icons/valid-xhtml11"
+			alt="Valid XHTML 1.1!" height="31" width="88" style="border-width:0;"></a>
+	</p>
+	<p>					
+		<a href="http://jigsaw.w3.org/css-validator/"><img
+			src="http://jigsaw.w3.org/css-validator/images/vcss"
+			alt="Valid CSS!" height="31" width="88" style="border-width:0;"></a>
+	</p>
+-->
+
+						</div>
+					</div>
+					<hr class="hide">
+					<div id="rightColumn">
+						<div class="inside">
+						
+
+
+
+						</div>
+					</div>
+					<div id="contentColumn">
+						<hr class="hide">
+						<a name="skipToContent" id="skipToContent"></a>
+						<div class="inside">
+
+
+<h2 class="red title highlight">Photos and Snapshots 1971 - 2005</h2>
+
+ <div id="outerwrap">
+<ul id="fullplate-navigation"> 
+    <li id="previous"><a href="photos_fullplate16.shtml" title="previous"> &laquo; Previous</a></li> 
+    <li id="thumbnails"><a href="photos.shtml" title="thumbnail gallery">Thumbnails</a></li> 
+    <li id="next"><a href="photos_fullplate18.shtml" title="next">Next &raquo;</a></li> 
+  </ul>  
+  	<hr class="hide">
+  <p>Full-size photo.</p>
+<div id="wrap">
+
+
+<div id="main-content"> 
+    <div id="fullplate-photo"> 
+      <h4>Groundbreaking for  the Harrisburg campus</h4> 
+      <img src="images/slides/17_groundbreaking_430x300.jpg" alt="Groundbreaking Harrisburg" width="430" height="300" /> 
+      </div> 
+  </div> 
+
+</div>
+</div>
+
+
+						</div>
+					</div>
+					<div class="clear mozclear"></div>
+				</div>
+			</div>
+			<div class="hide" id="nsFooterClear"><!-- for NS4's sake --></div>
+			<hr class="hide">
+				<!--//**Begin footer include**//-->
+<!--#include virtual="/30th/inc/footer.shtml"-->
+			<hr class="hide">
+		</div>
+	</body>
+</html>

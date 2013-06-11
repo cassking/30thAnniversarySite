@@ -1,0 +1,67 @@
+@charset "iso-8859-1";
+
+/*******************************************************************************
+*  images.css 
+* ------------------------------------------------------------------------------
+*  how to style images
+
+*******************************************************************************/
+
+#movie {
+width: 410px;
+	background: #fff;
+	margin: 0 auto;
+	text-align: center;
+}
+	
+	img.pictleft
+{
+	float: left;
+	padding: 5px;
+	border: 1px solid #ccc;
+	margin: 0 5px 5px 0;
+	background: white;
+}
+img.pictright
+{
+	float: right;
+	padding: 5px;
+	border: 1px solid #ccc;
+	margin: 0 0 5px 5px;
+	background: white;
+}
+
+img.pictleftnoborder
+{
+	float: left;
+	padding: 5px;
+	border: none 0;
+	margin: 0 5px 5px 0;
+	background: white;
+}
+img.pictrightnoborder
+{
+	float: right;
+	padding: 5px;
+	border: none 0;
+	margin: 0 0 5px 5px;
+	background: white;
+}
+
+/*******************************************************************************
+* Photo Gallery Styles
+* ------------------------------------------------------------------------------
+*  photos.shtml
+
+*******************************************************************************/
+ .thumbnail
+ {
+ float: left;
+ width: 140px;
+ border: 1px solid #999;
+ margin:15px;
+ padding: 5px;
+ text-align: center;
+ }
+
+ .clearboth { clear: both; }

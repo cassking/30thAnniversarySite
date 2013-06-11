@@ -1,0 +1,81 @@
+@charset "iso-8859-1";
+
+/*******************************************************************************
+*  vnav.css : 2004-07-21 : Ruthsarian Layouts
+* ------------------------------------------------------------------------------
+*  responsible for the vertical navigation elements commonly found in the left
+*  and / or right columns.
+*******************************************************************************/
+
+.vnav ul, .vnav ul li
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	display: block;
+}
+.vnav ul
+{
+	border: solid 1px #fff;
+	border-bottom-width: 0;
+}
+
+
+.vnav ul li
+{
+	border-bottom: dotted 1px #CCC;
+}
+
+.vnav ul.feeds li
+{
+	border-bottom: none;
+}
+.vnav ul li a
+{
+	font-family: "Trebuchet MS", verdana, arial, helvetica, sans-serif;
+	display: block;
+	text-decoration: none;
+	padding: 4px;
+	font-size: 91%;
+}
+
+.vnav ul.feeds li a
+{
+	
+	text-decoration: underline;
+
+	
+}
+
+.vnav ul.feeds li a:hover
+{
+	
+	text-decoration: none;
+	
+}
+* html .vnav ul li a/* hide from IE5.0/Win & IE5/Mac */
+{
+	height: 1%;
+}
+* html .vnav ul
+{
+	position: relative;	/* IE needs this to fix a rendering problem */
+}
+.vnav h3
+{
+	/* perhaps this belongs partly in gutters.css and partly in 
+	   fonts.css. However, the heading size for vnav elements is
+	   controlled here because it is a specific vnav visual element
+	   rather than something that's going to be applied to the whole
+	   layout. So that if you were to remove vnav.css from your
+	   layout, you wouldn't have any extra, unused CSS in the rest
+	   of your stylesheets. */
+
+	margin-bottom: 0.5em;
+	padding-top: 0.2em;
+	padding-left: 0.2em;
+	padding-bottom: 0;
+	font-size: 110%;
+}
+
+/******************************************************************************/

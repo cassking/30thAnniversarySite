@@ -1,0 +1,139 @@
+@charset "iso-8859-1";
+
+/*******************************************************************************
+*  fonts.css : 2004-06-28 : Ruthsarian Layouts
+* ------------------------------------------------------------------------------
+*  handles the font type (family), sizes, line-height, alignment, and any other
+*  properties relating to fonts - with the exception of color.
+*
+*  Perhaps font color declarations should be in this file as well. 
+*  However, certain CSS validators (hello w3!) will complain if colors
+*  and background colors are not declared in the same selector or
+*  at least within the same stylesheet. So font colors, including links,
+*  are defined in colors.css.
+*******************************************************************************/
+
+body
+{
+	font-family: "Trebuchet MS", verdana, arial, helvetica, sans-serif;
+	font-size: 100.1%;	/* font sizing approach recommended by Dave 
+				   Silvester on the css-discuss list. "the 
+				   .1 is important." */
+}
+#pageWrapper, .hnav2
+{
+	font-size: 80%;
+}
+#footer
+{
+	text-align: center;
+}
+/* :root is an invalid pseudo class but mozilla knows it */
+:root code
+{
+	font-size: 120%;	/* monospace fonts are typically smaller that 
+				   'normal' fonts under Mozilla. */
+}
+
+/*
+	Time to try and get all the heading elements to the same size 
+	regardless of browser. (IE seems to put them a big bigger
+	than Mozilla, typically.)
+*/
+
+p.tools a
+{	
+	text-decoration: underline;
+	padding: 1.3em;
+	font-size: 90%;
+}
+p.tools a:hover
+{	
+	text-decoration: none;
+	font-size: 90%;
+
+}
+.quote {
+	font: italic 1.0em georgia, serif;
+
+	text-indent: 30px;
+	padding: 10px;
+
+	}
+.items { font: verdana, arial, sans-serif;
+font-size: 80%;
+}
+
+h1
+{	font-family: Georgia, palatino, times, serif;
+	font-size: 230%;
+}
+
+h2
+{	font-family: Georgia, palatino, times, serif;
+font-weight: normal;
+	font-size: 190%;
+}
+h2.subsection
+{
+font-family: "Trebuchet MS", verdana, arial, helvetica, sans-serif;
+
+margin-bottom: -0.5em;
+}
+
+
+h2.link a
+{
+text-decoration: none;
+padding-left: 0.8em;
+
+}
+
+h2.link a:hover
+{
+text-decoration: none;
+padding-left: 0.8em;
+
+}
+
+h3
+{	font-family: "Trebuchet MS", verdana, arial, helvetica, sans-serif;
+font-weight: bolder;
+	font-size: 140%;
+	
+}
+
+h4
+{	font-family: Georgia, palatino, times, serif;
+	font-size: 126%;
+}
+h5
+{	font-family: Georgia, palatino, times, serif;
+	font-size: 110%;
+}
+h6
+{	font-family: georgia, palatino, times, serif;
+	font-size: 100%;
+}
+
+div.thumbnail{
+font-size: 80%;
+}
+.smallbox p
+{	font-family: georgia, palatino, times, serif;
+}
+.small
+{font-family: "Trebuchet MS", verdana, arial, helvetica, sans-serif;
+font-size: 98%;
+text-align: right;
+}
+
+.small a
+{color: #aa3939;
+text-decoration: underline;
+}
+.small  a:hover
+{color: #aa3939;
+text-decoration: none;
+}
+/******************************************************************************/

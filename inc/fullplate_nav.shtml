@@ -1,0 +1,6 @@
+<ul id="fullplate-navigation"> 
+    <li id="previous"><a href="#" title="previous"> &laquo; Previous</a></li> 
+    <li id="thumbnails"><a href="photos.shtml" title="thumbnail gallery">Back to Thumbnails</a></li> 
+    <li id="next"><a href="#" title="next">Next &raquo;</a></li> 
+  </ul>
+  <p>Click on the thumbnails to see a full-size version of the photo</p> 

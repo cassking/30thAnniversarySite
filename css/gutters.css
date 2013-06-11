@@ -1,0 +1,90 @@
+@charset "iso-8859-1";
+
+/*******************************************************************************
+*  gutters.css : 2004-07-06 : Ruthsarian Layouts
+* ------------------------------------------------------------------------------
+*  handles the whitespace between and within elements; such as margins and 
+*  padding.
+*******************************************************************************/
+
+body
+{
+	margin: 0;
+	padding: 2em;		/* remove this padding if you want the layout to
+				   stretch from edge to edge of the viewport. */
+}
+p, h1, h2, h3, h4, h5, h6
+{
+	margin: .8em 0;		/* specifically define this for Opera's sake,
+				   and also for better consistency across 
+				   all platforms  */
+}
+* html .inside {padding: 0 1.3em;}
+/* this for IE */
+
+.inside
+{
+	padding: 0 1.5em;	/* this padding is applied to every major box 
+				   within the layout for a uniform gutter 
+				   between borders 
+
+				   _NOTE_: a small glitch in IE seems to appear
+				   if this class has vertical padding applied
+				   to it. so in cases where you want to add 
+				   vert padding, use the parent element. margin
+				   values here don't work because .inside has
+				   a key role in border generation */
+}
+#leftColumn, #centerColumn, #rightColumn, #masthead
+{
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;	/* this is the vert padding talked about in the
+				   previous selector. */
+}
+* html #leftColumn {
+width: 180px;
+}
+#contentColumn 
+{
+margin-left: -10px; 
+margin-bottom: 10px;
+}
+
+#masthead, #footer
+{
+	padding: 2.1em;
+}
+
+* html .vnav { margin: 0.8em 0;}
+/* this for IE */
+.vnav
+{
+	margin: 1em 0;
+}
+html>body #footer
+{
+	padding-bottom: 1.01em;	/* this is to fix a bug in mozilla that results
+				   in a 1px line of white below the footer when
+				   the document gets very long. extremely long
+				   documents may generate the bug again. if
+				   you experience that, increasing this value
+				   may help. i think this is related to moz's
+				   off-by-one troubles as the bug does not
+				   occur in any other browser */
+}
+.shadowbox
+{
+	padding: 1.2em;
+	padding-bottom: 2em;
+	
+}
+.smallbox
+{
+	padding: 0.2em;
+	margin: 2em 12em;
+	text-align: center;
+	width: 30%;
+
+}
+
+/******************************************************************************/

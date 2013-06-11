@@ -1,0 +1,159 @@
+
+<!--//**Begin header.shtml include**//-->
+<!--#include virtual="/30th/inc/header_sky.shtml"-->
+
+
+
+
+
+
+			<div id="outerColumnContainer">
+				<div id="innerColumnContainer">
+					<hr class="hide">
+					<div id="leftColumn">
+						<div class="inside">
+						
+<h2 class="subsection">Consider a Donation</h2>
+<p style="font-size:80%;">
+	Come join the fun!
+</p>
+<!--//**Begin vnav.shtml include**//-->
+<!--#include virtual="/30th/inc/vnav.shtml"-->
+
+
+<!--
+	Won't validate XHTML 1.1 because I use the name property for an anchor (to be
+	backwards compatible with version 4 and earlier browsers). It's a personal belief
+	that XHTML 1.1 should at least include the name property. But since it doesn't,
+	I can't put these here.
+
+	<p>
+		<a href="http://validator.w3.org/check/referer"><img
+			src="http://www.w3.org/Icons/valid-xhtml11"
+			alt="Valid XHTML 1.1!" height="31" width="88" style="border-width:0;"></a>
+	</p>
+	<p>					
+		<a href="http://jigsaw.w3.org/css-validator/"><img
+			src="http://jigsaw.w3.org/css-validator/images/vcss"
+			alt="Valid CSS!" height="31" width="88" style="border-width:0;"></a>
+	</p>
+-->
+
+						</div>
+					</div>
+					<hr class="hide">
+					<div id="rightColumn">
+						<div class="inside">
+						
+
+
+
+						</div>
+					</div>
+					<div id="contentColumn">
+						<hr class="hide">
+						<a name="skipToContent" id="skipToContent"></a>
+						<div class="inside">
+
+
+<h2 class="red title highlight">Consider a Donation in Honor of the 30th Anniversary</h2>
+
+
+
+<p>	<img class="pictrightnoborder printHide" src="images/30_photo_wash1970s.jpg" alt="" width="300" height="259" />
+Our celebration of the 30th Anniversary of the first graduating class is a fitting time to ask that you consider making
+a donation to the Widener University School of Law. 
+Your generosity helps us ensure that Widener continues its tradition of excellence and fulfills 
+the important mission of providing a quality education to our future legal leaders.
+</p>
+	
+	<p>There are various ways you can contribute:</p>
+
+<ul>
+<li>You can donate securely online right now:
+<a title="click to give using our secure online form"
+href="https://www.widener.edu/default.aspx?pageId=4814&amp;secure=true">
+Online Giving - Secure Form</a>
+</li>
+
+
+<li> or, you can
+<a title="click to visit the online pledge form"
+href="http://www.law.widener.edu/giving/pledge_form.shtml">
+Make A Pledge Online</a>
+</li>
+<li>
+<a title="click to learn about the widener law fund"
+href="http://www.law.widener.edu/giving/annual_fund.shtml">
+Widener Law Fund</a>
+</li>
+
+<li>
+<a title="click to visit the our donor recognition page"
+href="http://www.law.widener.edu/giving/gift_clubs.shtml">
+Donor Recognition</a>
+</li>
+
+<li>
+<a title="click to learn about ways of giving page"
+href="http://www.law.widener.edu/giving/ways_of_giving.shtml">
+Ways of Giving</a>
+</li>
+
+<li>
+<a title="click to learn about ways to volunteer"
+href="http://www.law.widener.edu/giving/volunteer.shtml">
+Ways to Volunteer</a>
+</li>
+
+<li>
+<a title="click to visit the what does your gift do page"
+href="http://www.law.widener.edu/giving/what.shtml">
+What Does Your Gift Do?</a>
+</li>
+
+
+<li>
+	<a title="click to visit the our goals page"
+href="http://www.law.widener.edu/giving/goals.shtml">
+Our Goals</a>
+</li>
+
+</ul>
+
+<blockquote class="quote">
+We have much to celebrate. I hope you will take a moment to share a special memory of the law school here on our website. 
+It is a fitting place to reflect on all that Widener and its graduates have done to improve society, their communities, 
+and the lives of those they have served through the law. 
+<br /><br />
+Michael J. Goldberg<br />
+Acting Dean of the Widener University School of Law
+</blockquote>
+
+<p style="font-size:80%;">
+Alumni &amp; Development Office, Updated: 
+	<!--#config timefmt="%m/%d/%Y"-->
+	<!--#flastmod virtual="/30th/donate.shtml" --></p>
+
+
+
+
+
+
+
+
+						</div>
+					</div>
+					<div class="clear mozclear"></div>
+				</div>
+			</div>
+			<div class="hide" id="nsFooterClear"><!-- for NS4's sake --></div>
+			<hr class="hide">
+			
+			<!--//**Begin footer.shtml include**//-->
+<!--#include virtual="/30th/inc/footer.shtml"-->
+
+			<hr class="hide">
+		</div>
+	</body>
+</html>

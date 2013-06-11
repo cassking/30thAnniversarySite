@@ -1,0 +1,47 @@
+@charset "iso-8859-1";
+
+/*******************************************************************************
+*  print.css : 2004-06-28 : Ruthsarian Layouts
+* ------------------------------------------------------------------------------
+*  This stylesheet defines the layout as it appears on print devices (printers)
+*  by importing those stylesheets which should be used to render the layout on 
+*  paper.
+*******************************************************************************/
+
+@import "base.css";
+@import "fonts.css";
+
+#leftColumn, #rightColumn, #contentColumn
+{
+	float: none;	/* since left and right columns are being hidden,
+			   there's no need to float any columns. */
+}
+#rightColumn, #leftColumn, .hnav, .printHide
+{
+	display: none;	/* hide the left and right columns as well as the
+			   horizontal navigation element(s). also hide any
+			   designated elements that should not be pritned */
+}
+#outerColumnContainer, #innerColumnContainer
+{
+	border-left-width: 0;
+	border-right-width: 0;	/* hide the borders used to create the left and
+				   right columns' backgrounds */
+}
+#masthead, #footer
+{
+	border: solid 1px #000;
+	border-width: 1px 0;
+	padding: 0.5em;		/* add some borders to the masthead and footer
+				   for presentation */
+}
+a
+{
+	text-decoration: none;
+	background-color: inherit;
+	color: inherit;		/* we're printing, so there's no need to
+				   differentiate links from regular text. so
+				   remove any formatting the links get. */
+}
+
+/******************************************************************************/

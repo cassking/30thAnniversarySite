@@ -1,0 +1,157 @@
+@charset "iso-8859-1";
+
+/*******************************************************************************
+*  base.css : 2005-06-28 : Ruthsarian Layouts
+* ------------------------------------------------------------------------------
+*  base set of stylesheet rules needed to form the layout, and layout only.
+*  color and fonts and such are not handled here.
+*  side column widths are defined in EMs. see base_pixels.css for a pixel
+*  version instead.
+*******************************************************************************/
+
+#pageWrapper
+{
+	margin: 0;
+	width: auto;
+	min-width: 500px;
+}
+#outerColumnContainer
+{
+	z-index: 1;
+	border-color: #fff;	/* set default color to white. set the real
+				   color inside colors.css */
+	border-style: solid;
+	border-width: 0 15em;	/* sets the width of the borders used to create
+				   the left and right columns' background 
+				   color. */
+}
+#innerColumnContainer
+{
+	z-index: 2;
+	width: 100%;
+}
+* html #innerColumnContainer
+{
+	position: relative;	/* fix a render bug in IE under certain
+				   conditions */
+}
+#contentColumn
+{
+	margin: 0 -1px;		/* without this, boxes stop floating next to 
+				   each other */
+	width: 100%;
+}
+#leftColumn, #rightColumn, #contentColumn
+{
+	float: left;
+	position: relative;	/* IE has a display/render bug with non-floated 
+				   block elements inside floated block elements. 
+				   setting position:relative on the floating
+				   element seems to resolve this. */
+	z-index: 10;
+	overflow: visible;	/* fix for IE italics bug */
+}
+#rightColumn
+{
+	float: right;		/* floating this right allows for the right
+				   column block to appear before the content
+				   column in the flow of the document. doing
+				   this allows for any easy 3 column layout
+				   in NN4.
+
+				   There is certainly a lot, in terms of layout
+				   'theory' about how the flow of the document
+				   should be. I won't get into it here. */
+	width: 15em;
+	margin: 0 -15em 0 1px;	/* same as in the #leftColumn selector up 
+				   above. */
+}
+#leftColumn
+{
+	width: 15em;
+	margin: 0 1px 0 -15em;	/* like in the #contentColumn selector, without
+				   the 1px margin on the opposite side of the 
+				   box, boxes stop floating next to each 
+				   other */
+}
+#footer
+{
+	position: relative;
+}
+#masthead h1
+{
+	display: inline;	/* personal preference to keep the header 
+				   inline. you could just as easily change 
+				   padding and margins to 0. */
+}
+
+
+.clear
+{
+	clear: both;
+	padding-bottom: 1px;	/* for Gecko-based browsers */
+	margin-bottom: -1px;	/* for Gecko-based browsers */
+}
+.hide, #oldBrowserNotice, .ieSixCharDupBug
+{
+	display: none;		/* hide elements that CSS-targeted browsers 
+				   shouldn't show */
+}
+#contentColumn
+{
+	border-width: 0;	/* reset value from that in the version 4 
+				   stylesheet. this isn't in borders.css because
+				   were you to create a print.css and not 
+				   include borders.css, then the v4 border would
+				   still remain when you print. */
+}
+/*
+	The below block of CSS is invalid, and will invalidate this stylesheet.
+	So it is up to you to decide how you want to handle this. The below CSS
+	is a fix for IE/Win to help it better handle text that is wider than 
+	the available area. It does not handle this as expected, and forces the
+	floated elements to start stacking. This is a very undesirable thing.
+	Until a CSS-compliant way is devised, this CSS block will have to do.
+
+	So, do you live with invalid CSS? This comes down to a sort of markup
+	morals issue. Some people live and die by w3 validation. If it isn't
+	valid, it isn't good. Others don't validate at all, rather focusing
+	on "real-world" results.
+
+	I think the answer might be somewhere in the middle, but perhaps 
+	leaning torwards w3 validation. It's good to work torwards validation.
+	Indeed, I think documents should be able to validate against a w3
+	or other validator. However there are times where you will find reason
+	to explicitly defy the specs and include invalid markup or CSS.
+
+	It is already done once in the markup of this layout, using the name
+	attribute of an anchor tag. That attribute is deprecated in XHTML 1
+	but without it, backwards compatibility at even the most base level
+	is destroyed. So I purposely break the spec in order to provide that
+	backwards compatibility. Remove the one line, and it validates fine.
+
+	I am willing to break the markup when I have a good reason. And I think
+	this is the same type of situation. IE breaks horribly without this 
+	fix. I am willing to include this invalid line of CSS in order to 
+	keep IE happy. Using the * html selector, I know that CSS-compliant
+	browsers (the ones where validation matters) won't apply this CSS block.
+	Pretty much ONLY IE will apply this CSS. I have a reason to break the
+	CSS, I am fairly certain of its effect on other browsers (none), and
+	so I include it here.
+
+	I could have used the conditional comments that IE supports in it's
+	proprietary side of HTML. However that requires _every_ document to
+	contain the extra lines necessary to do this. This removes any
+	central point of control over at least some of the CSS being
+	applied.
+
+	In a template(d) environment, perhaps I would take that alternate route.
+	But here, where I'm not in a template(d) environment, I choose to add
+	this directly into the CSS.
+*/
+* html #pageWrapper
+{
+	word-wrap: break-word;
+}
+
+/******************************************************************************/

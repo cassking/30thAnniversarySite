@@ -1,0 +1,65 @@
+@charset "iso-8859-1";
+
+/*******************************************************************************
+*  lists.css : 2004-07-21 : Ruthsarian Layouts
+* ------------------------------------------------------------------------------
+*  responsible for styling lists
+*******************************************************************************/
+
+
+ul li.download 
+{	margin: 0;
+	padding-left: 1.1em;
+	list-style-type: none;
+	display: block;
+
+}
+
+.hnav_permalink
+{
+	white-space: nowrap;
+	margin: 0;
+	padding: 3px 0 4px 0;
+}
+
+.hnav_permalink ul
+{
+	text-align: left;
+	list-style-type: none;
+	line-height: normal;
+	margin: 0;
+	padding: 0;
+}
+.hnav_permalink ul li
+{
+	display: inline;
+	
+	margin: 0;
+	padding-left: 0.2em;
+}
+* html .HNAV_PERMALINK ul li 
+{
+	width: 1%;	/* holly hack for IE5/Win inline padding. this 
+			   hack fixes different rendering bugs in 5.0 and 5.5.
+			   Width is used instead of height because if the 
+			   document is too long, these elements become very tall
+			   and disrupt the look of the document. too wide an 
+			   element is better, visually, than too tall. */
+}
+
+* html .hnav_permalink/* Hide from IE5/Mac (& IE5.0/Win) */
+{
+	height: 1%;	/* holly hack to fix a render bug in IE6/Win */
+}
+* html .HNAV_PERMALINK
+{
+	height: auto;	/* above IE6/Win holly hack breaks IE5/Win when page 
+			   length get beyond the point that 1% height is taller 
+			   than the text height. IE5/Win does not need this 
+			   holly hack so we remove it here */
+	padding: 0;	/* IE5/Win will resize #hnav to fit the heights of its
+			   inline children that have vertical padding. So this
+			   incorrect case selector will remove that padding */
+}
+
+/******************************************************************************/
